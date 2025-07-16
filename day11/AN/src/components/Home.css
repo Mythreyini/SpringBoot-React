@@ -1,0 +1,67 @@
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.body-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.button-group button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #555;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  clear: both;
+}
+
+/* This CSS code adds basic styling to the Home component, including:
+
+- A full-height and full-width container with a light gray background.
+- A dark gray header with white text.
+- A body container with centered content and a bit of padding.
+- A button group with two buttons that have a dark gray background and white text.
+- A footer with a dark gray background and white text.
+
+You can adjust the styles to fit your specific design needs. */
